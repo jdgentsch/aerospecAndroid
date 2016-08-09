@@ -7,14 +7,84 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.nrg.aerospec.MainUIScreen">
+    tools:context="com.example.nrg.aerospec.MainUIScreen"
+    android:background="#ffffff">
+
+    <Button
+        android:background="@drawable/one"
+        android:layout_width="135dp"
+        android:layout_height="40dp"
+        android:text="Log in"
+        android:id="@+id/button"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignBottom="@+id/button2"
+        android:textColor="#394a9f" />
+
+    <Button
+        android:background="@drawable/two"
+        android:layout_width="135dp"
+        android:layout_height="40dp"
+        android:text="Register"
+        android:id="@+id/button2"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp" />
 
     <ImageView
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="53dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:text="Email"
+        android:textColor="@color/abc_secondary_text_material_light"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/Logo" />
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:text="Password"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:password="false"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Forgot Password?"
+        android:id="@+id/textView"
+        android:layout_below="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:textColor="@color/abc_input_method_navigation_guard" />
 
 </RelativeLayout>
