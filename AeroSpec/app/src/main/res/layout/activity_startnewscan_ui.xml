@@ -16,7 +16,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="START A NEW SCREEN"
         android:id="@+id/textView2"
-        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:textColor="#3a4aa1"
         android:layout_marginTop="43dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />

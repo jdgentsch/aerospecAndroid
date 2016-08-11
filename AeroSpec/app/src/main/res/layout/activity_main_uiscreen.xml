@@ -22,7 +22,9 @@
         android:layout_marginLeft="10dp"
         android:layout_marginStart="20dp"
         android:layout_alignBottom="@+id/button2"
-        android:textColor="#394a9f" />
+        android:textColor="#394a9f"
+        android:capitalize="none"
+        android:clickable="false" />
 
     <Button
         android:background="@drawable/two"
@@ -35,7 +37,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="30dp" />
+        android:layout_marginBottom="30dp"
+        android:capitalize="none" />
 
     <ImageView
         android:layout_width="160dp"
