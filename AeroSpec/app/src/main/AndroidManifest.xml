@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".MenuUIScreen" />
-        <activity android:name=".StartNewScanUI"></activity>
+        <activity android:name=".StartNewScanUI" />
+        <activity android:name=".MainAnalyzeScreen" />
+        <activity android:name=".MainFilterScreen"></activity>
     </application>
 
 </manifest>
