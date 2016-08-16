@@ -15,7 +15,7 @@
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:text="Start a New Scan"
-        android:id="@+id/button3"
+        android:id="@+id/delbtn"
         android:layout_marginTop="91dp"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/button4"
@@ -28,7 +28,7 @@
         android:text="Personal Scans"
         android:id="@+id/button4"
         android:layout_marginTop="33dp"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/delbtn"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -50,7 +50,7 @@
         android:id="@+id/button6"
         android:layout_marginTop="33dp"
         android:layout_below="@+id/button4"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_alignLeft="@+id/delbtn"
+        android:layout_alignStart="@+id/delbtn" />
 
 </RelativeLayout>
