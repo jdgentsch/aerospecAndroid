@@ -24,7 +24,9 @@
         android:layout_alignBottom="@+id/button2"
         android:textColor="#394a9f"
         android:capitalize="none"
-        android:clickable="false" />
+        android:clickable="true"
+        android:onClick="viewMenu"
+        android:nestedScrollingEnabled="false" />
 
     <Button
         android:background="@drawable/two"

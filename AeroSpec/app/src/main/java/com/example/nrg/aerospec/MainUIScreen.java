@@ -1,8 +1,10 @@
 package com.example.nrg.aerospec;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -30,5 +32,10 @@ public class MainUIScreen extends AppCompatActivity {
         Typeface regTypeface = Typeface.createFromAsset(getAssets(), "Montserrat-UltraLight.otf");
         TextView regTextview = (Button)findViewById(R.id.button2);
         regTextview.setTypeface(regTypeface);
+    }
+
+    public void viewMenu(View v) {
+        Intent intentMenu = new Intent(this, MenuUIScreen.class);
+        startActivity(intentMenu);
     }
 }
