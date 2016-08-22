@@ -13,6 +13,7 @@ public class MainFilterScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_filter);
+        /*
         Typeface emailTypeface = Typeface.createFromAsset(getAssets(), "Montserrat-Hairline.otf");
         TextView emailTextview = (EditText)findViewById(R.id.editText);
         emailTextview.setTypeface(emailTypeface);
@@ -28,5 +29,6 @@ public class MainFilterScreen extends AppCompatActivity {
         Typeface regTypeface = Typeface.createFromAsset(getAssets(), "Montserrat-UltraLight.otf");
         TextView regTextview = (Button)findViewById(R.id.button2);
         regTextview.setTypeface(regTypeface);
+        */
     }
 }

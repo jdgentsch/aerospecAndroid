@@ -9,6 +9,7 @@ public class StartNewScanUI extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startnewscan_ui);
         Typeface myTypeFace = Typeface.createFromAsset(getAssets(), "Montserrat-Bold.otf");

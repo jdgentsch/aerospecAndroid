@@ -11,9 +11,10 @@ public class MainAnalyzeScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_analyze);
-        Typeface emailTypeface = Typeface.createFromAsset(getAssets(), "Montserrat-Hairline.otf");
+        /*Typeface emailTypeface = Typeface.createFromAsset(getAssets(), "Montserrat-Hairline.otf");
         TextView emailTextview = (EditText)findViewById(R.id.editText);
         emailTextview.setTypeface(emailTypeface);
 
@@ -27,6 +28,6 @@ public class MainAnalyzeScreen extends AppCompatActivity {
 
         Typeface regTypeface = Typeface.createFromAsset(getAssets(), "Montserrat-UltraLight.otf");
         TextView regTextview = (Button)findViewById(R.id.button2);
-        regTextview.setTypeface(regTypeface);
+        regTextview.setTypeface(regTypeface);*/
     }
 }

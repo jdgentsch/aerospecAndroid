@@ -11,13 +11,15 @@
         <activity android:name=".MainUIScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".MenuUIScreen" />
         <activity android:name=".StartNewScanUI" />
         <activity android:name=".MainAnalyzeScreen" />
-        <activity android:name=".MainFilterScreen"></activity>
+        <activity android:name=".MainFilterScreen" />
+        <activity android:name=".PreviousScans"></activity>
     </application>
 
 </manifest>

@@ -13,20 +13,23 @@ public class MenuUIScreen extends AppCompatActivity {
         setContentView(R.layout.activity_menu_uiscreen);
     }
 
-    public void buttonOnClick(View v) {
-        switch(v.getId()) {
-            case R.id.delbtn:
-                Intent intentNewScan = new Intent(this, StartNewScanUI.class);
-                startActivity(intentNewScan);
-                break;
-            case R.id.button6:
-                Intent intentAnalyze = new Intent(this, MainAnalyzeScreen.class);
-                startActivity(intentAnalyze);
-                break;
-            case R.id.button5:
-                Intent intentFilter = new Intent(this, MainFilterScreen.class);
-                startActivity(intentFilter);
-                break;
-        }
+    public void newScanButtonClick(View v) {
+        Intent intentNewScan = new Intent(this, StartNewScanUI.class);
+        startActivity(intentNewScan);
+    }
+
+    public void filterButtonClick(View v) {
+        Intent intentFilter = new Intent(this, MainFilterScreen.class);
+        startActivity(intentFilter);
+    }
+
+    public void analyzeButtonClick(View v) {
+        Intent intentAnalyze = new Intent(this, MainAnalyzeScreen.class);
+        startActivity(intentAnalyze);
+    }
+
+    public void prevScanButtonClick(View v) {
+        Intent intentPractice = new Intent(this, PreviousScans.class);
+        startActivity(intentPractice);
     }
 }
