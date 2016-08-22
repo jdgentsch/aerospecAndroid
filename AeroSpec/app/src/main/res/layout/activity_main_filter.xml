@@ -7,7 +7,73 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.nrg.aerospec.MainFilterScreen"
-    android:background="#ffffff">
+    tools:context="com.example.nrg.aerospec.MainFilterScreen">
+
+    <FrameLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="@drawable/filterblurred"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:contextClickable="true"
+        android:clickable="false"
+        android:id="@+id/frameLayout">
+
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:background="@drawable/numfiltersselect"
+            android:layout_gravity="center"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:layout_gravity="center"
+            android:text="Number of Filters:"
+            android:textColor="@color/abc_primary_text_material_light"
+            android:typeface="sans"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView3"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/filtersshowngray"
+            android:layout_marginTop="40dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="Total:"
+            android:textColor="@color/abc_primary_text_material_light"
+            android:typeface="sans"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="60dp"
+            android:textSize="25dp" />
+    </FrameLayout>
+
+    <Button
+        android:background="@drawable/green"
+        android:layout_width="135dp"
+        android:layout_height="40dp"
+        android:text="Order"
+        android:id="@+id/button3"
+        android:capitalize="none"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
